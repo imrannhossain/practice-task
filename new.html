@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice two</title>
+    <style>
+        fieldset{
+            border: none;
+        }
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+        form {
+            background-color: #fff;
+            padding: 25px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #7a3d3d;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        button {
+            
+            color: black;
+            border: 5px  ;
+             cursor: pointer;
+             border-radius: 50px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        legend {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .text{
+            text-align: center;
+           
+            
+        }
+    </style>
+</head>
+<body>
+    <form >
+    <fieldset>
+        <legend>Feedback Form:</legend>
+
+        <label for="story">
+            Share your story
+        </label><br>
+            <textarea name="" id="story" cols="50" rows="8"   class="text"placeholder ="Share Your Story Here"></textarea><br>
+ 
+        <label for="rating">Rate your experience</label><br>
+ <select name="rating" id="rating">
+    <option value="very good"> Very good</option>
+    <option value="excellent">Excellent</option>
+    <option value="poor">poor</option>
+ </select><br>
+
+<button type="submit">
+    Submit Feedback
+</button>
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+ </form>
+
+    
+</body>
+</html>
